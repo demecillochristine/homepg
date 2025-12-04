@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Fredoka:wdth,wght@99,300..700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+   
+  <title>Gender Reveal</title>
+  <style>
+    /* Faded pink and blue background */
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(to bottom right, lightpink, lightblue);
+      overflow: hidden;
+    }
+
+   
+    .confetti {
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      opacity: 0.9;
+      animation: fall 1s linear infinite;
+    }
+
+
+    @keyframes fall {
+      0% { transform: translateY(-20px); }
+      100% { transform: translateY(100vh); }
+    }
+
+    #c1 { left: 10%; background: rgb(161, 29, 29); animation-delay: 0s; }
+    #c2 { left: 25%; background: rgb(243, 240, 70); animation-delay: 0.5s; }
+    #c3 { left: 40%; background: rgb(224, 116, 134); animation-delay: 1s; }
+    #c4 { left: 55%; background: rgb(121, 204, 231); animation-delay: 0.3s; }
+    #c5 { left: 70%; background: rgb(77, 77, 165); animation-delay: 1.3s; }
+    #c6 { left: 85%; background: rgb(104, 218, 104); animation-delay: 0.8s; }
+  </style>
+</head>
+<body>
+
+
+<div id="c1" class="confetti"></div>
+<div id="c2" class="confetti"></div>
+<div id="c3" class="confetti"></div>
+<div id="c4" class="confetti"></div>
+<div id="c5" class="confetti"></div>
+<div id="c6" class="confetti"></div>
+
+
+<img src="gender.png" class="centered-img">
+
+
+<div class="main-content">
+  <div class="maintext1">
+    <h1><span class="text1">Famous</span><span class="pink">Gender</span> <span class="blue">Reveal</span> <span class="text1">Ideas</span></h1>
+  </div>
+</div>  
+ 
+
+<a href="#" class="btn" id="btn1">POPPING BALLOON</a>
+<a href="#" class="btn" id="btn2">CAKE POP</a>
+<a href="#" class="btn" id="btn3">CONFETTI</a>
+<a href="#" class="btn" id="btn4">SMOKE/SMOKE BOMB</a>
+<a href="#" class="btn" id="btn5">XOXO</a>
+
+</body>
+</html>
